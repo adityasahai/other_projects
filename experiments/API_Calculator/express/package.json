@@ -1,0 +1,15 @@
+{
+  "name": "api_calculator",
+  "version": "1.0.0",
+  "description": "an API based calculator",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index"
+  },
+  "dependencies": {
+    "express": "*",
+    "nodemon": "*"
+  },
+  "author": "Aditya Sahai",
+  "license": "ISC"
+}

@@ -1,20 +1,20 @@
-let users = {
-  Alan: {
+let users = [
+  {
     age: 27,
-    online: false
+    online: true,
   },
-  Jeff: {
+  {
     age: 32,
-    online: true
+    online: true,
   },
-  Sarah: {
+  {
     age: 48,
-    online: false
+    online: true,
   },
-  Ryan: {
+  {
     age: 19,
-    online: true
-  }
-};
+    online: true,
+  },
+];
 
-console.log(Object.keys(users));
+console.log(users.reduce((val, u) => val && u.online));
